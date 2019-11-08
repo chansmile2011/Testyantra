@@ -32,21 +32,7 @@ public class Home {
 		  
 		  ArrayList<Integer> keysArrayList=new ArrayList<Integer>(countryCapitalMap.keySet());
 		  System.out.println("Keys are: ");
-		  
-		for (Integer country:keysArrayList)
-		  {
-		 System.out.println(country);
-		}
-		 
-		  System.out.println("-----------------------------");
-		 
-		  //Creating  ArrayList from Values
-		  ArrayList<String> valuesArrayList=new ArrayList<String>(countryCapitalMap.values());
-		  System.out.println("Values are: ");
-		  for (String capital:valuesArrayList) {
-		 System.out.println(capital);
-		}
-		  System.out.println("-----------------------------");
+	
 		 
 		  
 		
